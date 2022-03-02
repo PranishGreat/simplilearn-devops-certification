@@ -1,6 +1,6 @@
 pipeline {
   environment {
-    registry = "aktechthoughts/simplilearn-devops-certification"
+    registry = "pranishdocker/simplilearn-devops-certification"
     registryCredential = 'dockerhub'
   }
   agent any
